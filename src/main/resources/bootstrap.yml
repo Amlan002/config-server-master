@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server
+  profiles:
+    active:
+    - local
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Amlan002/config.git
+          skip-ssl-validation: true
+          username: Amlan002
+          password: amlan007@1
