@@ -5,7 +5,7 @@ spring:
     name: config-server
   profiles:
     active:
-    - localConfig
+    - localconfig
   cloud:
     config:
       server:
