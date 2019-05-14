@@ -11,6 +11,7 @@ spring:
       server:
         git:
           uri: https://github.com/Amlan002/config.git
+          force-pull: true
           skip-ssl-validation: true
           username: Amlan002
           password: amlan007@1
